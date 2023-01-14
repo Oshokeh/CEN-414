@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <body>
+            <script type="text/Javascript">
+                var x1 = 0, x2 = 1, next;
+                var series =[];
+                for(let i=1; i<100; i++){
+                    console.log (x1);
+                    next= x1 + x2;
+                    x1 = x2;
+                    x2 = next;
+                    series.push(x1);
+                }
+                console.log(series);
+            </script>
+        </body>
+    </head>
+</html>
